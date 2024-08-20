@@ -1,0 +1,12 @@
+#!/bin/bash
+
+filename="grades.txt"
+echo 'These are the students with 90+ marks: '
+echo ' '
+
+while re=" " read -r roll name number; do
+    if [[ "$number" -gt 90 ]]
+then
+        echo "Student Roll_No: $roll  Student Name: $name "
+    fi
+done < "$filename"

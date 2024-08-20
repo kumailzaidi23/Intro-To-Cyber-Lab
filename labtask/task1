@@ -1,0 +1,15 @@
+#!/bin/bash
+
+read -p "Enter First Number: " n1
+read -p "Enter Second Number: " n2
+echo ' '
+echo 'These are the even numbers between '$n1' and '$n2
+echo ' '
+
+for i in $(seq $n1 $n2)
+do
+if [[ $((i % 2)) -eq 0 ]]
+then
+echo $i
+fi
+done

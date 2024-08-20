@@ -1,0 +1,13 @@
+#!/bin/bash
+
+read -p 'Enter Positive Integer: ' re
+
+while [[ $re -le 1 ]]
+do
+read -p ' Please Enter Positive Integer: ' re
+if [[ $re -ge 1 ]]
+then
+echo 'Valid Input Recieved: '$re
+break
+fi
+done
