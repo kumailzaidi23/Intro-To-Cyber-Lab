@@ -1,3 +1,6 @@
+_**All of the scripts and tasks that i performed in intro to cyber lab in 2023 is in this repo(bash)**_
+
+
 _**Introduction to Cyber Security Lab (Project)**_
 
 ## _**DOS && DDOS ATTACK**_
